@@ -22,7 +22,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 
 }
  
@@ -224,6 +224,7 @@ color: #757575;
     padding-left: 50px; */
 
     text-align: center;
+    padding-left: 40px;
 }
 
 
