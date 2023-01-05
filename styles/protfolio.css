@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+.text-primary{
+    color: #fd6e0a;
+
+}
+
+.btn-primary{
+    background-color: #fd6e0a;
+    height: 64px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 19px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+ 
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-tittle{
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #fd6e0a;
+
+}
+/* bannar style */
+.bannar{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.ban-sub-tittle{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 4px;
+    
+}
+
+.ban-tittle{
+    font-weight: 600;
+font-size: 65px;
+color: #181818;
+margin-bottom: 20px;
+
+}
+
+.ban-desc{
+    color: #757575;
+    font-size: 18px; 
+    margin-bottom: 30px; 
+}
+
+.header{
+    background-color:#FFF8F3 ;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+
+/* 
+about */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.about{
+    
+text-align: center;
+margin-top: 130px;
+background-color: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-tittle{
+  text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+     line-height: 48px;
+
+}
+
+.section-desc{
+    color: #757575;
+ 
+font-size: 18px;
+
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-tittle{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+    margin-bottom: 30px;
+    
+}
+  /* what i do */
+
+  .what-i-do{
+margin-top: 130px;
+  }
+  .skill-container{
+    display: flex;
+    gap: 24px;
+  }
+.skill{
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0.06);
+    border-radius: 5px;
+    padding: 40px ;
+}
+
+  .skill-tittle{
+    font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #181818;
+margin-top: 30px;
+margin-bottom: 20px;
+
+  }
+  
+ .skill-desc{
+color: #757575;
+ }
+
+ /* end */
+
+.section-tittle{
+    margin-top: 130px;
+}
